@@ -32,7 +32,7 @@
         border-radius: 1rem;
       }
 
-      .episodeDetails {
+       .episodeDetails {
         flex: 1;
         margin-left: 1rem;
 
@@ -98,14 +98,14 @@
         transition: filter 0.2s;
   
         img {
-          width: 4.5rem;
-          height: 4.5rem
+          width: 2.5rem;
+          height: 2.5rem
         }
 
         &:hover {
           filter: brightness(0.95);
         }
-      }
+      } 
     }
   }
 }
@@ -133,8 +133,8 @@
       font-size: 0.875rem;
 
       img {
-        // width: 2.5rem;
-        // height: 2.5rem;
+        width: 2.5rem;
+        height: 2.5rem;
         border-radius: 0.5rem;
       }
     }
