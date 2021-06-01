@@ -3,13 +3,15 @@ import { PalyerContext } from '../../contexts/PlayerContexts';
 import styles from './styles.module.scss';
 
 export function Player() {
-  const player = useContext(PalyerContext)
+  const { episodeList, currentEpisodeIndex } = useContext(PalyerContext);
+
+  const episode = episodeList[currentEpisodeIndex];
 
   return (
     <div className={styles.playerContainer}>
       <header>
         <img src="/playing.svg" alt="Tocando agora" />
-        <strong>Tocando agora {player}</strong>
+        <strong>Tocando agora {episode?.title} </strong>
       </header>
 
       <div className={styles.emptyPlayer}>
