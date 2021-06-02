@@ -1,6 +1,7 @@
 import { useContext } from 'react';
 import { PalyerContext } from '../../contexts/PlayerContexts';
 import styles from './styles.module.scss';
+import Image from 'next/image'; 
 
 export function Player() {
   const { episodeList, currentEpisodeIndex } = useContext(PalyerContext);
@@ -14,9 +15,20 @@ export function Player() {
         <strong>Tocando agora {episode?.title} </strong>
       </header>
 
-      <div className={styles.emptyPlayer}>
-        <strong>Selecione um podcast para ouvir</strong>
-      </div>
+      { episode ? (
+        <div className={styles.currentEpisode}>
+          <Image width={592} height={592} src={episode.thumbnail} objectFit="cover"
+          />
+          <strong>{episode.title}</strong>
+          <span>{episode.members}</span>
+        </div>
+      ) : (
+        <div className={styles.emptyPlayer}>
+          <strong>Selecione um podcast para ouvir</strong>
+        </div>
+      )}
+
+
 
       <footer className={styles.empty}>
         <div className={styles.progress}>
