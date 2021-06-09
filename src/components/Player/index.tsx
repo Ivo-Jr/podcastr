@@ -16,6 +16,8 @@ export function Player() {
     currentEpisodeIndex,
     isPlaying,
     togglePlay,
+    playNext,
+    playPrevious,
     setPlayingState
   } = useContext(PalyerContext);
 
@@ -92,10 +94,10 @@ export function Player() {
               ? <img src="/pause.svg" alt="Tocar" />
               : <img src="/play.svg" alt="Pausar" />}
           </button>
-          <button type="button" disabled={!episode}>
+          <button type="button" onClick={playNext} disabled={!episode}>
             <img src="/play-next.svg" alt="Tocar próxima" />
           </button>
-          <button type="button" disabled={!episode}>
+          <button type="button" onClick={playPrevious} disabled={!episode}>
             <img src="/repeat.svg" alt="Tocar próxima" />
           </button>
         </div>
