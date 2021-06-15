@@ -2,12 +2,6 @@
     <img alt="Podcastr" title="Podcastr" src=".github/podcastr.svg" />
 </h1>
 
-<p align="center">
-  <img src="https://img.shields.io/github/forks/guilhermecapitao/podcastr?label=forks&message=MIT&color=5965E0&labelColor=121214" alt="Forks">     
-
-  <img src="https://img.shields.io/github/stars/guilhermecapitao/podcastr?label=stars&message=MIT&color=5965E0&labelColor=121214" alt="Stars">
-</p>
-
 <br>
 
 <p align="center">
