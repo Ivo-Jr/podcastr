@@ -1,11 +1,11 @@
 <h1 align="center">
-    <img alt="Podcastr" title="Podcastr" src=".github/podcastr.svg" />
+    <img alt="Podcastr" title="Podcastr" src="src/assets/img/podcastr.svg" />
 </h1>
 
 <br>
 
 <p align="center">
-  <img alt="Moveit" src=".github/icon.svg" width="160px">
+  <img alt="Moveit" src="src/assets/img/icon.svg" width="160px">
 </p>
 
 ## 🧪 Technologies
@@ -21,7 +21,7 @@ This project was developed using the following technologies:
 Clone the project and access the folder
 
 ```bash
-$ git clone https://github.com/Ivo-Jr/podcastr.git && cd podcastr
+$ git clone https://github.com/Ivo-Jr/podcastr.git && cd podcastrnext
 ```
 
 Follow the steps below
