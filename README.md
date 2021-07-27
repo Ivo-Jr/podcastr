@@ -21,7 +21,7 @@
   <a href="#sunny-result">Result</a>
 </p>
 
-## 🧪 Technologies
+## :tes_tube: Technologies
 
 This project was developed using the following technologies:
 
