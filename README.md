@@ -8,6 +8,19 @@
   <img alt="Moveit" src="src/assets/img/icon.svg" width="160px">
 </p>
 
+<h4 align="center">
+  A platform where you can listen your podcasts.
+</h4>
+
+<p align="center">
+  <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Getting started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#sunny-result">Result</a>
+</p>
+
 ## 🧪 Technologies
 
 This project was developed using the following technologies:
