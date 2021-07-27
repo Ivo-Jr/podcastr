@@ -66,15 +66,15 @@ Remembering that you need to have a [Figma](http://figma.com/) account to access
   <div style="display: flex;   flex-direction: column;
   align-items: center;">
   <h1 align="center" style="display: flex; flex-direction:row;">
-      <img   style="margin: 0 10px;" alt="inbotflix-img" src="src/assets/layout/prt1.png" />
+      <img   style="margin: 0 10px;" alt="podcastr-img1" src="src/assets/layout/prt1.png" />
        <br>
        <br>
        <br>
-      <img   style="margin: 0 10px;" alt="inbotflix-img" src="src/assets/layout/prt2.png" />
+      <img   style="margin: 0 10px;" alt="podcastr-img2" src="src/assets/layout/prt2.png" />
       <br>
       <br>
       <br>
-      <img  style="margin: 0 10px;" alt="inbotflix-img" src="src/assets/layout/prt3.png" />
+      <img  style="margin: 0 10px;" alt="podcastr-img3" src="src/assets/layout/prt3.png" />
   </h1>     
   </div>
 ---
