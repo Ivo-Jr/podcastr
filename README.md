@@ -77,6 +77,6 @@ Remembering that you need to have a [Figma](http://figma.com/) account to access
       <img  style="margin: 0 10px;" alt="podcastr-img3" src="src/assets/layout/prt3.png" />
   </h1>     
   </div>
----
+
 
 <p align="center">Made with ❤ by Ivo Jr</p>
